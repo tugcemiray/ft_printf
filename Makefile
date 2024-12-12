@@ -1,6 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: tugcemirayalgan <tugcemirayalgan@studen    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2024/12/13 01:08:12 by tugcemiraya       #+#    #+#              #
+#    Updated: 2024/12/13 01:08:13 by tugcemiraya      ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = libftprintf.a
 
-SRCS = ft_printf.c functions.c 
+SRCS = ft_printf.c ft_functions.c 
 
 OBJS = $(SRCS:.c=.o)
 
